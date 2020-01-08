@@ -1,0 +1,67 @@
+#------------------------- Windows Settings
+# Create own window instead of using desktop (required in nautilus)
+background yes
+own_window yes
+own_window_transparent no
+own_window_hints undecorated,sticky,below,skip_taskbar,skip_pager
+own_window_colour black
+own_window_class Conky
+own_window_title Simple Default Conky
+own_window_argb_visual yes
+own_window_argb_value 0
+double_buffer yes
+
+#------------------------- Location
+minimum_size 100 40
+maximum_width 1920
+gap_x 1920
+gap_y 0
+
+#------------------------- FONT
+use_xft yes
+xftfont GE Inspira:bold:size=20
+xftalpha 0.1	# Alpha of Xft font. Must be a value at or between 1 and 0 ###
+override_utf8_locale yes
+draw_shades no
+default_shade_color black
+draw_outline yes
+default_outline_color black
+uppercase no
+
+alignment top_left
+
+#------------------------- Colors
+default_color DCDCDC
+color0 ff00ff			
+color1 ffff00
+color2 00ffff
+color3 0000ff			
+color4 00ff00
+color5 ff0000
+color6 ffffff
+color7 000000
+color8
+color9
+#------------------------- BORDERS
+draw_borders no
+draw_outline no
+stippled_borders 0
+border_inner_margin 0
+border_outer_margin 0
+border_width 0
+
+#------------------------- OTHER
+background yes
+update_interval 36000
+
+TEXT
+${font WenQuanY Zen Hei:pixelsize=30}
+${color1}众   ${color0}同   ${color6}此   ${color5}常   ${color4}故   ${color3}有   ${color2}无   ${color1}名   ${color0}道
+${color1}妙   ${color0}谓   ${color6}两   ${color5}有   ${color4}常   ${color3}名   ${color2}名   ${color1}可   ${color0}可
+${color1}之   ${color0}之   ${color6}者   ${color5}欲   ${color4}无   ${color3}万   ${color2}天   ${color1}名   ${color0}道
+${color1}门   ${color0}玄   ${color6}同   ${color5}，   ${color4}欲   ${color3}物   ${color2}地   ${color1}，   ${color0}，
+${color1}。   ${color0}，   ${color6}出   ${color5}以   ${color4}，   ${color3}之   ${color2}之   ${color1}非   ${color0}非
+${color7}。   ${color0}玄   ${color6}而   ${color5}观   ${color4}以   ${color3}母   ${color2}始   ${color1}常   ${color0}常
+${color7}。   ${color0}之   ${color6}异   ${color5}其   ${color4}观   ${color3}。   ${color2}，   ${color1}名   ${color0}道
+${color7}。   ${color0}又   ${color6}名   ${color5}徼   ${color4}其
+${color7}。   ${color0}玄   ${color6}，   ${color5}。   ${color4}妙

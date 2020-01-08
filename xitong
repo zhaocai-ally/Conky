@@ -1,0 +1,78 @@
+#------------------------- Windows Settings
+# Create own window instead of using desktop (required in nautilus)
+background yes
+own_window yes
+own_window_transparent no
+own_window_hints undecorated,sticky,below,skip_taskbar,skip_pager
+own_window_colour black
+own_window_class Conky
+own_window_title Simple Default Conky
+own_window_argb_visual yes
+own_window_argb_value 0
+double_buffer yes
+
+#------------------------- Location
+minimum_size 600 120
+maximum_width 1920
+gap_x 1920
+gap_y 1080
+
+#------------------------- FONT
+use_xft yes
+xftfont GE Inspira:bold:size=20
+xftalpha 0.1	# Alpha of Xft font. Must be a value at or between 1 and 0 ###
+override_utf8_locale yes
+draw_shades no
+default_shade_color black
+draw_outline no
+uppercase no
+
+alignment top_left
+
+#------------------------- Colors
+default_color DCDCDC
+color0 ff00ff			
+color1 ffff00
+color2 00ffff
+color3 0000ff			
+color4 00ff00
+color5 ff0000
+color6 ffffff
+color7 000000
+color8
+color9
+
+#------------------------- BORDERS
+draw_borders no
+draw_outline no
+stippled_borders 0
+border_inner_margin 0
+border_outer_margin 0
+border_width 0
+
+#------------------------- OTHER
+update_interval 1
+
+TEXT
+${font MesloLGS NF:Bold:pixelsize=16}
+${color0}                   -`                 
+${color1}                  .o+`                 ${color0}zhaocai${color6}@${color0}Linux
+${color2}                 `ooo/                 ${color0}OS: ${color4}Arch Linux 
+${color3}                `+oooo:                ${color0}Kernel: ${color4}x86_64 Linux 5.3.18-1-surface
+${color4}               `+oooooo:               ${color0}Uptime: ${color4}1h 15m
+${color5}               -+oooooo+:              ${color0}Packages: ${color4}1720
+${color6}             `/:-:++oooo+:             ${color0}Shell: ${color4}zsh 5.7.1
+${color0}            `/++++/+++++++:            ${color0}Resolution: ${color4}1920x1080
+${color1}           `/++++++++++++++:           ${color0}DE: ${color4}KDE 5.65.0 / Plasma 5.17.4
+${color2}          `/+++ooooooooooooo/`         ${color0}WM: ${color4}KWin
+${color3}         ./ooosssso++osssssso+`        ${color0}GTK Theme: ${color4}Breeze [GTK2/3]
+${color4}        .oossssso-````/ossssss+`       ${color0}Icon Theme: ${color4}deepin
+${color5}       -osssssso.      :ssssssso.      ${color0}Font: ${color4}Noto Sans Regular
+${color6}      :osssssss/        osssso+++.     ${color0}Disk: ${color4}134G / 952G (15%)
+${color0}     /ossssssss/        +ssssooo/-     ${color0}CPU: ${color4}Intel Core i7-6600U @ 2x 3.4GHz [44.0°C]
+${color1}   `/ossssso+/:-        -:/+osssso+-   ${color0}GPU: ${color4}HD Graphics 520
+${color2}  `+sso+:-`                 `.-/+oso:  ${color0}RAM: ${color4}2631MiB / 15941MiB
+${color3} `++:.                           `-/+/
+${color4} .`                                 `/
+
+
