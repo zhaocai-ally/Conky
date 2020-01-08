@@ -1,14 +1,14 @@
 # Conky
 conky配置文件
 安装之前需要：
-archlinux下先安装aur源中的conky-lua /n
-yay -S conky-lua /n
+archlinux下先安装aur源中的conky-lua 
+yay -S conky-lua 
 
-接着安装conky-manager /n
-sudo pacman -S conky-manager /n
+接着安装conky-manager 
+sudo pacman -S conky-manager 
 
-克隆conky配置 /n
-git clone /n
+克隆conky配置 
+git clone 
 
-cd /n
-sh ~/.Conky/startconky.sh /n
+cd 
+sh ~/.Conky/startconky.sh 
