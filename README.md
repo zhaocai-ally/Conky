@@ -8,7 +8,7 @@ yay -S conky-lua
 sudo pacman -S conky-manager 
 
 克隆conky配置 
-git clone 
+git clone https://github.com/zhaocai-ally/Conky.git ~/.Conky
 
-cd 
+cd ~/.Conky
 sh ~/.Conky/startconky.sh 
