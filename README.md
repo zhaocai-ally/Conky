@@ -14,7 +14,7 @@ sudo pacman -S conky-manager
 
 克隆conky配置 
 
-git clone https://github.com/zhaocai-ally/Conky.git ~/.Conky
+git clone https://gitee.com/zhaocaiall/Conky.git ~/.Conky
 
 cd ~/.Conky
 
